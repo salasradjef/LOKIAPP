@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void select(View view){
         textView = (TextView) findViewById(R.id.textView);
         mediaPlayer = MediaPlayer.create(this,R.raw.audio);
-        int time = 1200;
+        int time = 900;
         int ms = time * 1000;
         new CountDownTimer(ms, 1000) {
             @Override
